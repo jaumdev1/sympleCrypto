@@ -26,7 +26,6 @@ char* Encrypt(char* text, int32_t shift){
     }
     shifted[1] = '\0';
     strcat(encryptedText, shifted);
-  
 
   }
 
